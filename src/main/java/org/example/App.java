@@ -3,7 +3,7 @@ package org.example;
 
 import javax.swing.*;
 
-public class App {
+public class  App {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
@@ -13,8 +13,8 @@ public class App {
     }
 
     private static void createAndShowGUI() {
-        System.out.println("Created GUI on EDT? "+
-                SwingUtilities.isEventDispatchThread());
+       // System.out.println("Created GUI on EDT? "+
+       //         SwingUtilities.isEventDispatchThread());
 
         JFrame f = new CustomFrame();
 
