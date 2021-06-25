@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SwingHelloWorld_working" />
-        <module name="Swing elloWorld" />
         <module name="SwingHelloWorld" />
+        <module name="Swing elloWorld" />
       </profile>
     </annotationProcessing>
   </component>
